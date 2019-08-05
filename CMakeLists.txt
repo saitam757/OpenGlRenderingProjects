@@ -63,8 +63,8 @@ include_directories(${GLEW_INCLUDE_DIRS})
 # │  Build executable                                                │
 # └──────────────────────────────────────────────────────────────────┘
 # add_subdirectory(imgui)
-file(GLOB_RECURSE source_files ${PROJECT_SOURCE_DIR}/OpenGLRenderingProjects/src/*)
-include_directories(${PROJECT_SOURCE_DIR}/OpenGLRenderingProjects/src/)
+file(GLOB_RECURSE source_files ${PROJECT_SOURCE_DIR}/src/*)
+include_directories(${PROJECT_SOURCE_DIR}/src/)
 
 add_executable(main ${source_files})
 target_link_libraries(main glfw ${GLFW_LIBRARIES} ${GLEW_LIBRARIES} ${OPENGL_LIBRARIES} ${OpenCV_LIBS} ${CMAKE_THREAD_LIBS_INIT}) # SOIL)

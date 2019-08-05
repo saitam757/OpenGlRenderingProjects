@@ -8,7 +8,7 @@
 #include <GL/glew.h>
 
 // TODO find a better solution here
-#define SHADER_DIR "/home/bender/Projekte/Programming/C++/OpenGlRenderingProjects_clean/OpenGLRenderingProjects/src/Shader/"
+#define SHADER_DIR "/home/bender/Projekte/Programming/C++/OpenGlRenderingProjects/src/Shader/"
 
 
 using namespace OpenGlApplication;
